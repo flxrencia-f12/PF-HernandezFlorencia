@@ -1,0 +1,45 @@
+.footer {
+    background-color:rgb(180, 177, 216);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+
+            .footer-content {
+                background-color: rgb(180, 177, 216);
+                padding-bottom: .5rem 3rem;
+                width: 100%;
+                position: relative;
+                bottom: 0;
+                left: 0;
+            }
+
+            .column-content {
+                align-items: center;
+                padding: 0%;
+                list-style-type: none;
+            }
+
+            .content-h {
+                color: black black;
+                align-items: center;
+                text-align: center;
+            }
+
+            .icono-ig {
+                font-size: 44px;
+                color: black;
+             
+             }
+
+             .content__p {
+                text-align: justify-all;
+                float: none;
+                margin-left: auto;
+                margin-right: auto;
+                vertical-align: middle;
+                
+            }
+}

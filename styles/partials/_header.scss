@@ -1,0 +1,57 @@
+.header {
+    background-color: rgb(180, 177, 216);
+    padding: .5rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        max-width: 6rem;
+    }
+
+    .titulo {
+        font-size: 30px;
+        padding: 1rem;
+        margin: auto;
+        align-items: center;
+        color: whitesmoke;
+       -webkit-animation:tracking-out-expand .8s cubic-bezier(.25,.46,.45,.94) both;animation:tracking-out-expand .8s cubic-bezier(.25,.46,.45,.94) both}
+    
+    }
+    
+    .navbar {
+        animation: slideDown 0.5s forwards;
+
+        .navbar a:hover {
+            background-color: rgba(216, 216, 216, 0.384);
+         
+        }
+
+        .nav__1 {
+            font-size: 23px;
+            font-weight: 500;
+        }
+
+        .nav__2 {
+            font-size: 20px;
+        }
+        
+    }
+    
+    @keyframes slideDown {
+        from {
+            top: -50px;
+        }
+        to {
+            top: 0;
+        }
+    }
+    
+
+    
+
+
+
+
+
+@-webkit-keyframes tracking-out-expand{0%{opacity:1}60%{opacity:.8}100%{letter-spacing:1em;opacity:0}}@keyframes tracking-out-expand{0%{opacity:1}60%{opacity:.8}100%{letter-spacing:1em;opacity:0}}
