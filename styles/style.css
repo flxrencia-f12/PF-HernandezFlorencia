@@ -200,8 +200,28 @@
     text-decoration: none;
 }
 
+.card a:hover {
+    background-color: rgb(180, 177, 216);
+}
+
 
 /*******CONTENIDO CUIDADOS******/
+
+.hero__2 {
+    max-width: 850px;
+    margin: auto;
+    padding: 1rem;
+   
+    
+    
+}
+
+.hero__2 img {
+    display: flex;
+    justify-content: center;
+    max-width: 750px;
+
+}
 
 .container {
     max-width: 950px;
@@ -227,7 +247,30 @@
     object-fit: contain;
 }
 
+@media (max-width: 768px) {
+    .cards {
+        flex: 1 1 calc(50% - 20px); 
+    }
+}
 
+@media (max-width: 480px) {
+    .cards {
+        flex: 1 1 calc(100% - 20px); 
+    }
+}
+
+
+@media (max-width: 768px) {
+    .hero__2 img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero__2 img {
+        height: 200px;
+    }
+}
 
 
 /*******OVERLAY*******/
@@ -350,4 +393,19 @@
     .hero {
         height: 200px;
     }
+}
+
+@media (min-width: 650px) {
+    .container {
+        max-width: 950px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-self: center;
+        align-items: stretch;
+        gap: 1rem;
+        box-sizing: border-box;
+    
+    }
+
 }

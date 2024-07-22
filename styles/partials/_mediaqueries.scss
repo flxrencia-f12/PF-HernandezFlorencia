@@ -25,3 +25,30 @@
       }
 
 }
+
+@media (max-width: 768px) {
+    .cards {
+        flex: 1 1 calc(50% - 20px); 
+
+        @media (max-width: 480px) {
+            .cards {
+                flex: 1 1 calc(100% - 20px); 
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .hero__2 img {
+        height: 200px;
+
+        @media (max-width: 480px) {
+            .hero__2 img {
+                height: 200px;
+            }
+        }
+    }
+}
+
