@@ -1,0 +1,66 @@
+.contacto {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-image: url(/img/logo2.jpg);
+    overflow: hidden;
+    
+    .preguntame__1 {
+        text-align: center;
+        margin-bottom: 20px;
+
+        .preguntame__1 h2 {
+            font-family: "open-sans" sans-serif;
+            font-weight: 600;
+            padding: 1rem;
+            color: rgb(180, 177, 216);
+            font-size: 2rem;
+            background-color: rgba(0, 0, 0, 0.521);
+            
+        }
+        
+    }
+
+    .preguntame__form {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .form-control {
+            flex: 1 1 100%; 
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+
+            .form-control input,
+      .form-control textarea {
+      width: 100%;
+     padding: 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     box-sizing: border-box;
+}
+
+.textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.btn {
+    background-color: rgb(180, 177, 216);
+    margin: auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+btn:hover {
+    background-color: white;
+
+}
+
+        }
+    }
+}
